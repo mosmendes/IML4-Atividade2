@@ -32,4 +32,6 @@ jobs:
         poetry run pytest
 
     - name: Build Docker image
-      run: docker build -t water-potability-app .
+      run: |
+        mkdir -p mlruns
+        docker build -t water-potability-app .
