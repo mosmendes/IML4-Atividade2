@@ -3,6 +3,7 @@ name = "water-potability-ml"
 version = "0.1.0"
 description = "Projeto de classificação de potabilidade de água com MLflow e MLOps"
 authors = ["Seu Nome <seu@email.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
