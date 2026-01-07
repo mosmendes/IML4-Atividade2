@@ -30,3 +30,6 @@ jobs:
       run: |
         export PYTHONPATH=$PYTHONPATH:$(pwd)
         poetry run pytest
+
+    - name: Build Docker image
+      run: docker build -t water-potability-app .
